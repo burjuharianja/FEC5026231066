@@ -58,9 +58,28 @@ body {
     display: flex;
     justify-content: center;
 }
-.centered-item{
+
+.centered-item {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .centered-item {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .centered-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .centered-item .link {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .medsos {
